@@ -1,0 +1,45 @@
+html{
+    font-size: 16px;
+}
+
+.background{
+    filter: opacity(.2);
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    padding: 30px;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(204, 201, 201);
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top:200px;
+    left: 500px;
+
+}
+
+label{
+    font-size: 2rem;
+    color: red;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    box-shadow: 2px 2px 1px rgb(204, 201, 201);
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 25px;
+}
